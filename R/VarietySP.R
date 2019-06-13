@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/VarietySP.R",print.eval=TRUE)#
 #Does split plot anova for variety field trial
 data<-read.table("../data/VarietySP.txt",sep = "",header=T)
 Rep<-as.character(data[,1])

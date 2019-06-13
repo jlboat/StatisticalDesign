@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Sulphur.R",print.eval=TRUE)#
 #Does anova for Sulphur data
 data<-read.table("../data/Sulphur.txt",sep = "",header=T)
 Nitrogen<-as.character(data[,1])

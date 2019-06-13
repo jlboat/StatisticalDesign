@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Strawberry.txt",print.eval=TRUE)#
 #Does t-test for Strawberry data
 A<-c(10.1,10.8,9.8,10.5)
 B<-c(6.3,6.9,5.3,6.2)

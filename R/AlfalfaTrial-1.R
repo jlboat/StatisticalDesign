@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/AlfalfaTrial-1.R",print.eval=TRUE)#
 #Does anova for alfalfa data - replicated, nested blocks
 data<-read.table("../data/AlfalfaTrial-1.txt",sep = "",header=T)
 Location<-as.character(data[,1])

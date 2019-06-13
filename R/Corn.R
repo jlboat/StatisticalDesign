@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Corn.R",print.eval=TRUE)#
 #Does anova and ancova for Corn data
 data<-read.table("../data/Corn.txt",sep = "",header=T)
 Trt<-as.character(data[,1])

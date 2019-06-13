@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/IVD.R",print.eval=TRUE)#
 #Does t-test and anova for IVD data
 data<-read.table("../data/IVD.txt",sep = "",header=T)
 Temp<-as.character(data[,1])

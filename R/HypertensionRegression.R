@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/HypertensionRegression.R",print.eval=TRUE)#
 #Does scod for Hypertension repeated measure
 data<-read.table("../data/Hypertension.txt",sep = "",header=T)
 Subject<-data[,1]

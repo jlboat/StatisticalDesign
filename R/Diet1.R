@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Diet1.R",print.eval=TRUE)#
 #Does anova for Diet data
 #Note how Subject Data are entered!
 data<-read.table("../data/Diet.txt",sep = "",header=T)

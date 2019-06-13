@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Diet.R",print.eval=TRUE)#
 #Does anova for Sulphur data
 data<-read.table("../data/Diet.txt",sep = "",header=T)
 Diet<-as.character(data[,1])

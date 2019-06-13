@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/FishtankR.txt",print.eval=TRUE)#
 #Does anova for FishTank Data
 data<-read.table("../data/FishTank.txt",sep = "",header=T)
 Diet<-as.character(data[,1])

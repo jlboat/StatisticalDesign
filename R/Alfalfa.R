@@ -1,4 +1,3 @@
-#source("c:/Work08/StatDesignSC08/Programs/Alfalfa.R",print.eval=TRUE)#
 #Does anova for Alfalfa Data
 data<-read.table("../data/Alfalfa.txt",sep = "",header=T)
 Variety<-data[,1]

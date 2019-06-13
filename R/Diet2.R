@@ -1,4 +1,3 @@
-#source("c:/Work07/StatDesign07/Programs/R/Examples/Diet2.R",print.eval=TRUE)#
 #Does anova for Diet data
 #Split Plot with CRD on Whole Plots
 #Note how Subject Data are entered!
