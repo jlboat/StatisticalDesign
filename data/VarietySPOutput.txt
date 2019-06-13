@@ -1,0 +1,47 @@
+Anova for Alfalfa Variety Trials
+
+Rcode:
+
+summary(aov(Y ~P*K+Error(Rep/Trt)+Variety*P*K,data=aovdata))
+
+Output
+
+Error: Rep
+          Df Sum Sq Mean Sq F value Pr(>F)
+Residuals  1 6.9616  6.9616               
+
+Error: Rep:Trt
+          Df  Sum Sq Mean Sq F value   Pr(>F)   
+P          1 12.1404 12.1404 48.8362 0.006015 **
+K          1  1.2610  1.2610  5.0726 0.109711   
+P:K        1  1.3736  1.3736  5.5256 0.100246   
+Residuals  3  0.7458  0.2486                    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+Error: Within
+            Df Sum Sq Mean Sq F value  Pr(>F)  
+Variety      5 2.0712  0.4142  2.4289 0.07097 .
+P:Variety    5 0.3462  0.0692  0.4060 0.83889  
+K:Variety    5 0.8883  0.1777  1.0417 0.42075  
+P:K:Variety  5 0.2913  0.0583  0.3416 0.88155  
+Residuals   20 3.4109  0.1705                  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1 
+
+
+---------------------------------------------------------
+R code
+
+tab<-list(Variety,Trt)
+tapply(Y,tab,mean)
+
+Output
+
+     pk    pK    Pk    PK
+A 3.565 3.570 4.535 5.170
+G 3.780 3.335 4.340 4.645
+K 3.590 3.780 4.420 4.995
+N 4.195 4.380 4.550 5.475
+O 3.965 4.050 4.300 5.645
+R 3.725 3.620 4.680 4.870

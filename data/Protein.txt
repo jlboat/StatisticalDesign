@@ -1,0 +1,16 @@
+Protein	WtGain
+Low	3.89
+Low	3.87
+Low	3.26
+Low	2.7
+Low	3.82
+Medium	8.54
+Medium	9.32
+Medium	8.76
+Medium	9.3
+Medium	10.45
+High	20.39
+High	24.22
+High	30.91
+High	22.78
+High	26.33
